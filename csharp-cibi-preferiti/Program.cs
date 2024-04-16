@@ -4,7 +4,14 @@
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello, World!");
+            string[] foods = { "pizza", "carbonara", "torta salata", "carne", "sushi" };
+
+            Console.WriteLine("La lunghezza dell'elenco è:" + foods.Length);
+
+            for (int i = 0; i < foods.Length; i++)
+            {
+                Console.WriteLine("- " + foods[i]);
+            }
         }
     }
 }
