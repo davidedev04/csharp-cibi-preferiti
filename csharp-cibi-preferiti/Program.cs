@@ -13,6 +13,10 @@
             {
                 Console.WriteLine("- " + foods[i]);
             }
+
+            Console.WriteLine($"Il mio cibo preferito è: {foods[0]}");
+            Console.WriteLine($"Il mio cibo meno preferito è: {foods[9]}");
+
         }
     }
 }
